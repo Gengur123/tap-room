@@ -1,4 +1,5 @@
 ![Tap Room Diagram](/public/Diagram.png)
+<img src="./public/Diagram.png" alt="diagram of React component tree"/>
 
 # Getting Started with Create React App
 
