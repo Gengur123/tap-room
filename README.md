@@ -1,10 +1,38 @@
-![Tap Room Diagram](/public/Diagram.png)
-<img src="./public/Diagram.png" alt="diagram of React component tree"/>
+# Tap Room
+
+#### By _**Arthur Lee**_
+
+## Description
+
+This project is a single page website application that allows users to view a menu full of different kegs the bar has to offer. The user can view a list of kegs and click on them to show more details. The application also allows users to submit their own customizable kegs that the website updates automatically. 
+
+## Component Tree
+<img src="./src/imgages/diagram.png" alt="diagram of React component tree"/>
+
+## Setup/Installation Requirements
+
+1. Clone this repository onto your computer:
+2. Navigate into the `tap-room` directory, and open in Visual Studio Code or preferred text editor
+3. Run `npm install` to install the dependencies
+4. Run `npm run start` 
+5. Open a browser and navigate to `localhost:3000` to view the app
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+
+## Known Bugs
+
+_No known bugs_
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<img src="./src/img/tap-room-diagram.png" alt="diagram of React component tree"/>
 ## Available Scripts
 
 In the project directory, you can run:
