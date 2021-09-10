@@ -2,10 +2,10 @@ import React from "react";
 import { v4 } from "uuid";
 import PropTypes from "prop-types";
 
-function KegFormBlock(props) {
-  function handleKegFormBlockFromSubmission(event) {
+function NewKegForm(props) {
+  function handleNewKegFromSubmission(event) {
     event.preventDefault();
-    props.onKegFormCreation({
+    props.onNewKegCreation({
       name: event.target.name.value,
       brand: event.target.brand.value,
       price: event.target.price.value,
@@ -17,7 +17,7 @@ function KegFormBlock(props) {
   return (
     <React.Fragment>
       <hr />
-      <form onSubmit={handleKegFormBlockFromSubmission}>
+      <form onSubmit={handleNewKegFromSubmission}>
         <input type="text" name="name" placeholder="Keg Name" required />
         <input type="text" name="brand" placeholder="Keg Brand" required />
         <input
@@ -51,8 +51,8 @@ function KegFormBlock(props) {
   );
 }
 
-KegFormBlock.propTypes = {
-  onKegFormCreation: PropTypes.func,
+NewKegForm.propTypes = {
+  onNewKegCreation: PropTypes.func,
 };
 
-export default KegFormBlock;
+export default NewKegForm;
