@@ -1,4 +1,4 @@
-![Tap Room Diagram](/Diagram.png)
+![Tap Room Diagram](/public/Diagram.png)
 
 # Getting Started with Create React App
 
