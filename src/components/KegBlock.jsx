@@ -1,8 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function KegBlock() {
-  return <React.Fragment></React.Fragment>;
+function KegBlock(props) {
+  return (
+    <React.Fragment>
+      <div onClick={() => props.whenKegBlockClicked(props.id)}>
+        <h3>{props.name}</h3>
+        <hr />
+      </div>
+    </React.Fragment>
+  );
 }
 
 KegBlock.propTypes = {
@@ -11,6 +18,8 @@ KegBlock.propTypes = {
   price: PropTypes.number.isRequired,
   pintsLeft: PropTypes.number.isRequired,
   alcoholContent: PropTypes.number.isRequired,
+  id: PropTypes.string,
+  whenKegBlockClicked: PropTypes.func,
 };
 
 export default KegBlock;
