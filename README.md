@@ -7,7 +7,7 @@
 This project is a single page website application that allows users to view a menu full of different kegs the bar has to offer. The user can view a list of kegs and click on them to show more details. The application also allows users to submit their own customizable kegs that the website updates automatically. 
 
 ## Component Tree
-<img src="./src/imgages/diagram.png" alt="diagram of React component tree"/>
+<img src="src/images/diagram.png" alt="BeerList" width="400">
 
 ## Setup/Installation Requirements
 
